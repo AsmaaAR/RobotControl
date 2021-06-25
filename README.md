@@ -5,5 +5,5 @@ there are 4 files:
 3- A file called (connection) to connect to the database and store data.
 4- A file named (conDBtoHW) to retrieve the last row from the database.
 The database has two tables:
-a- table named(motors) with 5 colomns.
-b- table named(play) with one colomn.
+a- table named(motors) with 6 colomns -one for ID and 5 for motors-.
+b- table named(playbutton) with one colomn.
