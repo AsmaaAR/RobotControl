@@ -13,20 +13,15 @@ $sql= mysqli_query($con, "SELECT * FROM motors ORDER BY id DESC LIMIT 1");
  
 while ($row = mysqli_fetch_assoc($sql)) { 
     
-    echo (' motor1: ');
-    echo $row['motor1'];
+    echo (' motor1: '); echo $row['motor1'];
     echo"<br>";
-    echo (' motor2: ');
-    echo $row['motor2'];
+    echo (' motor2: '); echo $row['motor2'];
     echo"<br>";
-    echo (' motor3: ');
-    echo $row['motor3'];
+    echo (' motor3: '); echo $row['motor3'];
     echo "<br>";
-    echo (' motor4: ');
-    echo $row['motor4'];
+    echo (' motor4: '); echo $row['motor4'];
     echo"<br>";
-    echo (' motor5: ');
-    echo $row['motor5'];
+    echo (' motor5: '); echo $row['motor5'];
     echo"<br>";
 
 }
