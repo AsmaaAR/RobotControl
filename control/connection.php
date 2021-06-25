@@ -12,7 +12,8 @@ $motor4 = $_POST["motor4"];
 $motor5 = $_POST["motor5"];
 
 // connection to data base:
-$con = new mysqli('localhost','root','','control');
+$con = mysqli_connect("localhost","root","","control") or die("Error: Can't Connect to Server");
+$db = mysqli_select_db($con,"control") or die("Error: Can't Connect to DB");
 
 if(isset($_POST["save"])){
 $insertvar = "INSERT INTO motors(motor1,motor2,motor3,motor4,motor5) VALUES ('$motor1','$motor2','$motor3','$motor4','$motor5')";
