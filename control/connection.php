@@ -1,3 +1,6 @@
+<!-- Asmaa Abdurrhman Azimudin
+     Umm-Al-Qura university 
+-->
 <?php
 // get value:
 error_reporting(E_ALL);
